@@ -1,0 +1,35 @@
+NAME
+    Dist::Zilla::Plugin::Extras - Put and ignore extra parameters in
+    dist.ini
+
+VERSION
+    version 0.01
+
+SYNOPSIS
+    In your dist.ini:
+
+      [Extras]
+      foo = 1
+      bar = 2
+
+      [Extras / Baz]
+      qux = 1
+      quux = 2
+
+DESCRIPTION
+    This plugin lets you specify extra parameters in your dist.ini under the
+    [Extras] section. It does nothing. One use-case of this is to put stuffs
+    to be processed by other software aside from Dist::Zilla.
+
+SEE ALSO
+    Dist::Zilla
+
+AUTHOR
+    Steven Haryanto <stevenharyanto@gmail.com>
+
+COPYRIGHT AND LICENSE
+    This software is copyright (c) 2012 by Steven Haryanto.
+
+    This is free software; you can redistribute it and/or modify it under
+    the same terms as the Perl 5 programming language system itself.
+

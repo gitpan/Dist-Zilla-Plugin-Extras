@@ -1,0 +1,21 @@
+---
+abstract: 'Put and ignore extra parameters in dist.ini'
+author:
+  - 'Steven Haryanto <stevenharyanto@gmail.com>'
+build_requires:
+  Module::Build: 0.3601
+configure_requires:
+  Module::Build: 0.3601
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.300006, CPAN::Meta::Converter version 2.113640'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Dist-Zilla-Plugin-Extras
+requires:
+  Dist::Zilla: 0
+resources:
+  homepage: http://metacpan.org/dist/Dist-Zilla-Plugin-Extras
+  repository: http://github.com/sharyanto/perl-Dist-Zilla-Plugin-Extras
+version: 0.01
